@@ -1,14 +1,19 @@
 node-static
 ===========
 
-A simple to implment static file server for node.js
+A simple to implement static file server for node.js
 
 Example
 ===========
 
+<<<<<<< HEAD
 <pre><code>
 var http = require("http");
 var static = require("./lib/static.js");
+=======
+<pre><code>var http = require("http”);
+var static = require("./lib/static.js”);
+>>>>>>> 484754374d52a21e82065c7dabeeff55203788fe
 
 // An example custom function to deal with 404's returned by the static module
 // You could use this to either provide a custom 404 or just fallback to other routes
