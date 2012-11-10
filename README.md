@@ -6,10 +6,6 @@ A simple to implement static file server for node.js
 Example
 ===========
 
-<pre><code>
-var http = require("http");
-var static = require("./lib/static.js");
-=======
 <pre><code>var http = require("http");
 var static = require("./lib/static.js");
 
